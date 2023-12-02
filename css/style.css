@@ -103,7 +103,7 @@ header p {
 }
 
 .dropcap {
-    font-family: 'Days One', sans-serif;
+    font-family: 'lora', serif;
     float: left;
     line-height: 55%;
     width: .7em;
@@ -209,7 +209,7 @@ nav a:hover {
     text-align: left;
     padding-right: 30vw;
   }
-  
+
   .list ul{
     line-height: 1.5;
     margin-left: 0;
