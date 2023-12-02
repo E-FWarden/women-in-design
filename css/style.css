@@ -27,6 +27,17 @@ img {
     max-width: 100%;
 }
 
+.mainimg {
+    margin : 4em auto ;
+}
+.kernloose {letter-spacing: 5px;}
+.imgbtm {margin-bottom: 4rem;}
+
+.topimg {
+    margin-top: 0;
+    margin-bottom: 4rem;
+}
+
 h1, h2, .logo, blockquote {
     color: #B0333A;
     font-family: 'Days One', sans-serif;
@@ -87,6 +98,34 @@ header p {
     font-size: 1.3rem
 }
 
+.leader {
+    text-transform: uppercase;
+}
+
+.dropcap {
+    font-family: 'Days One', sans-serif;
+    float: left;
+    line-height: 55%;
+    width: .7em;
+    font-size: 400%;
+    color: #E97FA3; 
+}
+
+.responsivenav {
+    background: #E97FA3;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+
+#logo {     
+    font-size: 1.5rem;
+    color: #f7f7f7;
+    font-family: 'Days One', sans-serif;
+    padding-left: 32px; }
+
 a {
     color:#0E0E0E;
     text-decoration: none
@@ -138,13 +177,43 @@ nav a:hover {
     transition: all 0.3s ease-in-out;
 
 }
+
+.imgsmall {
+    max-width: 800px;
+    margin: auto;
+    padding: 40px 0;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(375px, 1fr)) ; 
+}
+
+.dark {
+    background: #E97FA3;
+    color: #f7f7f7;
+    padding: 6rem 0;
+}
+
+.dark h2, blockquote, cite {
+    color: #f7f7f7;
+}
+
+.dark a {
+    color: #f7f7f7;
+    font-weight: bold;
+    border-bottom: 1px dotted;
+}
+
 .logo {
     font-size: 1.8em;
     font-weight: bold;
     text-align: left;
     padding-right: 30vw;
   }
-
+  
+  .list ul{
+    line-height: 1.5;
+    margin-left: 0;
+}
 
 .list li {
     margin: 1rem 0;
