@@ -1,4 +1,12 @@
-sbody 
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+    line-height: 1.15;
+}
+
+body 
 {
     background: #fff2f6;
     color: #0E0E0E;
@@ -7,7 +15,7 @@ sbody
    
 }
 
-article, header {
+section, header {
     width: 80%;
     max-width:800px;
     margin: auto;
@@ -19,6 +27,15 @@ img {
     max-width: 100%;
 }
 
+h1, h2, .logo, blockquote {
+    color: #B0333A;
+    font-family: 'Days One', sans-serif;
+}
+
+p, blockquote {
+    margin-bottom: 1.5rem;
+    line-height: 1.5
+}
 
 h2 {
     color: #E97FA3;
@@ -53,7 +70,10 @@ blockquote {
 }
 
 cite {
-    font-size: 16px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #E97FA3;
+    font-style: normal;
 }
 
 header h2 {
@@ -63,10 +83,13 @@ header h2 {
     color:  #E97FA3;
 }
 
+header p {
+    font-size: 1.3rem
+}
 
 a {
     color:#0E0E0E;
-    text-decoration: none;
+    text-decoration: none
 }
 
 a:hover {
@@ -82,28 +105,60 @@ nav {
     margin: 0;
     width: 100%;
     background: #E97FA3;
-    padding: 2rem;
+    padding: 2rem 0 ;
     font-size: 0.8rem;
 }
 
 nav ul{
+    padding-right: 5rem;
     text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 
 }
 
 
-av a:link {
+nav a:link {
     color: #0E0E0E;
 }
 
 nav ul li {
     display: inline;
-    margin: 15px;
+    margin: 20px;
+    background: none;
 }
 
-nav a:hover {
-    boarder-bottom: one;
+nav a:visited {
+ color: #fff;
+}
+
+nav a:hover {   
+    border-bottom: none;
+    colour: #000;
     transition: all 0.3s ease-in-out;
+
+}
+.logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    text-align: left;
+    padding-right: 30vw;
+  }
+
+
+.list li {
+    margin: 1rem 0;
+    line-height: 1.5;
+    list-style: none;
+
+}
+
+hr {
+    margin: 100px 0;
+    height: 1px;
+    background-color: #E97FA3;
+    color: #E97FA3;
+    border: 0 none;
 }
 .connections{
     position: relative;
