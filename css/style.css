@@ -75,7 +75,7 @@ blockquote {
     font-family: 'Catamaran', sans-serif;
     hanging-punctuation: first;
     text-indent: -0.7;
-    color: #0E0E0E;
+    color: #70CDEB;
 }
 
 cite {
@@ -202,21 +202,21 @@ nav a:hover {
 }
 
 .dark3 {
-    background: #E97FA3;
+    background: #005765;
     color: #f7f7f7;
     padding: 3.5rem 0;
     padding-bottom: 0.5rem;
 }
 
 .dark3 h2{
-    color: #005765;
+    color: #E97FA3;
 }
 .dark5 {
     padding-top: 3rem;
 }
 
 .dark4 {
-    background: #005765;
+    background: #E97FA3;
     color: #f7f7f7;
     padding: 3rem 0;
 }
